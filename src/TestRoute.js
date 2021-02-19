@@ -45,33 +45,33 @@ export default class TestRoute extends React.Component {
                     />{'"'}
                 </label>
                 <label>{'  exact={'}
-                  { exact.toString() }
                   <input
                     type='checkbox'
                     name='exact'
                     value={exact}
                     onChange={this.handleInput.bind(this)}
-                    />
+                  />
+                  { exact.toString() }
                   {'}'}
                 </label>
                 <label>{'  strict={'}
-                  { strict.toString() }
                   <input
                     type='checkbox'
                     name='strict'
                     value={strict}
                     onChange={this.handleInput.bind(this)}
-                    />
+                  />
+                  { strict.toString() }
                   {'}'}
                 </label>
                 <label>{'  sensitive={'}
-                  { sensitive.toString() }
                   <input
                     type='checkbox'
                     name='sensitive'
                     value={sensitive}
                     onChange={this.handleInput.bind(this)}
-                    />
+                  />
+                  { sensitive.toString() }
                   {'}'}
                 </label>
                 {'  />'}
@@ -81,7 +81,7 @@ export default class TestRoute extends React.Component {
               color: match ? 'green' : 'red',
             }}>
               <code>
-                { JSON.stringify(match, null, 2) }
+                { JSON.stringify(match, null, 4) }
               </code>
             </pre>
           </div>

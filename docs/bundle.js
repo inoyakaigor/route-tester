@@ -181,39 +181,39 @@ var TestRoute = function (_React$Component) {
                   'label',
                   null,
                   '  exact={',
-                  exact.toString(),
                   _react2.default.createElement('input', {
                     type: 'checkbox',
                     name: 'exact',
                     value: exact,
                     onChange: _this2.handleInput.bind(_this2)
                   }),
+                  exact.toString(),
                   '}'
                 ),
                 _react2.default.createElement(
                   'label',
                   null,
                   '  strict={',
-                  strict.toString(),
                   _react2.default.createElement('input', {
                     type: 'checkbox',
                     name: 'strict',
                     value: strict,
                     onChange: _this2.handleInput.bind(_this2)
                   }),
+                  strict.toString(),
                   '}'
                 ),
                 _react2.default.createElement(
                   'label',
                   null,
                   '  sensitive={',
-                  sensitive.toString(),
                   _react2.default.createElement('input', {
                     type: 'checkbox',
                     name: 'sensitive',
                     value: sensitive,
                     onChange: _this2.handleInput.bind(_this2)
                   }),
+                  sensitive.toString(),
                   '}'
                 ),
                 '  />'
@@ -227,7 +227,7 @@ var TestRoute = function (_React$Component) {
               _react2.default.createElement(
                 'code',
                 null,
-                JSON.stringify(match, null, 2)
+                JSON.stringify(match, null, 4)
               )
             )
           );
